@@ -1,0 +1,73 @@
+body {
+  font-family: "Droid Serif";
+  color: #333;
+  font-size: 18px;
+  line-height: 1.8;
+  margin: 0;
+}
+
+h1, h2 {
+  font-family: "Oswald", sans-serif;
+}
+
+.container {
+  width: 700px;
+  margin: auto auto;
+}
+
+.title {
+  font-size: 42px;
+  color: white;
+  margin: 0;
+}
+.subtitle {
+  margin: 0;
+  color: white;
+}
+
+.header {
+  text-align: center;
+  background-image: url(images/mars.jpg);
+  background-size: cover;
+}
+
+.header-filter {
+  background: rgba(122, 86, 0, 0.41);
+  padding: 250px 0;
+}
+
+a {
+  background: rgba(61, 132, 168, 0.3);
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  background: rgba(61, 132, 168, 0.6);
+}
+
+.image-left {
+  float: left;
+  margin-right: 30px;
+  margin-left: -150px;
+}
+
+@media (max-width: 750px) {
+  .container {
+    max-width: 90%;
+  }
+}
+
+.navbar {
+  background: #333;
+
+}
+
+.navbar a {
+  color: white;
+  background: none;
+}
+
+.content {
+  margin: 50px auto;
+}
